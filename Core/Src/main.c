@@ -28,7 +28,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "pid.h"
-
+#include "printf.h"
+#include "moving_average.h"
 #include "tle5012b.h"
 /* USER CODE END Includes */
 
@@ -187,7 +188,7 @@ int main(void)
 	tle5012_Rset();
 	tle5012_Rset();
 	read_sensors();
-	eread_sensors();
+	read_sensors();
 	read_sensors();
 	read_sensors();
 	read_sensors();
@@ -198,8 +199,8 @@ int main(void)
 	HAL_Delay(3000);
 	angle_setpoint1=init_angle_1;
 	angle_setpoint2=init_angle_2;
-	goto_angle1(0.25);
-	goto_angle2(0.25);
+	//goto_angle1(0.25);
+	//goto_angle2(0.25);
 
 
 	//tle5012_Calibrate0();

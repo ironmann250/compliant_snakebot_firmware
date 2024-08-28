@@ -30,7 +30,8 @@ Core/Src/main.o: ../Core/Src/main.c ../Core/Inc/main.h \
  C:/Users/stark/STM32Cube/Repository/STM32Cube_FW_F4_V1.26.2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h \
  C:/Users/stark/STM32Cube/Repository/STM32Cube_FW_F4_V1.26.2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h \
  ../Core/Inc/crc.h ../Core/Inc/main.h ../Core/Inc/spi.h ../Core/Inc/tim.h \
- ../Core/Inc/usart.h ../Core/Inc/gpio.h
+ ../Core/Inc/usart.h ../Core/Inc/gpio.h ../Core/Inc/pid.h \
+ ../Core/Inc/printf.h ../Core/Inc/moving_average.h ../Core/Inc/tle5012b.h
 ../Core/Inc/main.h:
 C:/Users/stark/STM32Cube/Repository/STM32Cube_FW_F4_V1.26.2/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 ../Core/Inc/stm32f4xx_hal_conf.h:
@@ -68,3 +69,7 @@ C:/Users/stark/STM32Cube/Repository/STM32Cube_FW_F4_V1.26.2/Drivers/STM32F4xx_HA
 ../Core/Inc/tim.h:
 ../Core/Inc/usart.h:
 ../Core/Inc/gpio.h:
+../Core/Inc/pid.h:
+../Core/Inc/printf.h:
+../Core/Inc/moving_average.h:
+../Core/Inc/tle5012b.h:

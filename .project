@@ -31,6 +31,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>Core/Src/printf.c</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/claud_robot/Core/Src/printf.c</locationURI>
+		</link>
+		<link>
 			<name>Drivers/STM32F4xx_HAL_Driver/stm32f4xx_hal.c</name>
 			<type>1</type>
 			<location>C:/Users/stark/STM32Cube/Repository/STM32Cube_FW_F4_V1.26.2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c</location>

@@ -32,8 +32,7 @@ extern "C" {
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include "printf.h"
-#include "moving_average.h"
+
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
